@@ -2,7 +2,6 @@ package Operadores;
 
 public class Concatenacao {
     public static void main(String[] args) throws Exception {
-        String nomeCompleto = "LINGUAGEM" + "JAVA";
         
         String concatenacao = "?";
         
