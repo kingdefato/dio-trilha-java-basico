@@ -10,7 +10,7 @@ public class OperadorTernario2 {
         int numero1 = 2;
         int numero2 = 2;
         
-        boolean simNão = numero1 == numero2;
+        // boolean simNão = numero1 == numero2;
         
         String igual = numero1 == numero2 ?"Sim" : "Não";
         System.out.println("O primeiro numero é igual ao segundo numero? " + igual);
