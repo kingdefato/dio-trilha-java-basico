@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeScanner",
+            "request": "launch",
+            "mainClass": "AboutMeScanner",
+            "projectName": "terminal-e-argumentos_4e9b660f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,7 +22,13 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "projectName": "terminal-e-argumentos_4e9b660f"
+            "projectName": "terminal-e-argumentos_4e9b660f",
+            "args": [
+                "Ytallo",
+                "Brito",
+                "15",
+                "1.66"
+            ]
         },
         {
             "type": "java",
