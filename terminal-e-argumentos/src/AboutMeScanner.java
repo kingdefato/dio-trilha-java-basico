@@ -3,6 +3,7 @@ import java.util.Locale;
 
 public class AboutMeScanner {
     public static void main(String[] args) {
+       try{
         //Criando objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -19,6 +20,10 @@ public class AboutMeScanner {
         int idade = scanner.nextInt();
 
 
-    System.out.println("Olá, me chamo "+ nome +" " + sobrenome+ "\n" + "Minha Altura é " + altura+"cm"+ "\n" +"Minha idade é " + idade);
+    System.out.println("Olá, me chamo "+ nome.toUpperCase() +" " + sobrenome+ "\n" + "Minha Altura é " + altura+"cm"+ "\n" +"Minha idade é " + idade);
+       }catch (InputMismatchException e){
+        System.out.println("Os Campos idade e altura precisam ser númericos!");
+       }
+
     }
 }
