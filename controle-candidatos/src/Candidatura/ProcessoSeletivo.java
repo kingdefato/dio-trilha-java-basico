@@ -3,12 +3,12 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
     public static void main(String[] args) {
-        String [] candidatos = {"FELIPE","YTALLO", "JOAO" ,"PEDRO", "JULIA"};
+        /*String [] candidatos = {"FELIPE","YTALLO", "JOAO" ,"PEDRO", "JULIA"};
         for(String candidato: candidatos){
             entrandoEmContato(candidato);
-        }
-        
+        */
     }
+    
     static void entrandoEmContato(String candidato){
         int tentativasRealizadas = 1;
         boolean continuarTentando = true;
