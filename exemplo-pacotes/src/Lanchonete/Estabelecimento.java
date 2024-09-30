@@ -29,8 +29,7 @@ public class Estabelecimento {
          * normas de atendimento/
          */
 
-         //esta ação é sigilosa, poderia ser privada
-         cliente.consultarSaldoAplicativo();
+
 
       
       }
